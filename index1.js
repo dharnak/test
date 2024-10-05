@@ -1,0 +1,49 @@
+document.getElementById("homebtu").addEventListener("click",function(){
+    document.getElementById("page1").style.display="flex"
+      document.getElementById("page2").style.display="none"
+      document.getElementById("page3").style.display="none"
+      document.getElementById("page4").style.display="none"
+      document.getElementById("container").style.display="none"
+      document.getElementById("container1").style.display="none"
+      document.getElementById("page5").style.display="none"
+        })
+        document.getElementById("aboutbtu").addEventListener("click",function(){
+            document.getElementById("page1").style.display="none"
+            document.getElementById("page2").style.display="none"
+            document.getElementById("page3").style.display=""
+            document.getElementById("page4").style.display="none"
+            document.getElementById("container").style.display="none"
+            document.getElementById("container1").style.display="none"
+            document.getElementById("page5").style.display="none"
+              })   
+              document.getElementById("servicebtu").addEventListener("click",function(){
+                document.getElementById("page1").style.display="none"
+                document.getElementById("page2").style.display="none"
+                document.getElementById("page3").style.display="none"
+                document.getElementById("page4").style.display="none"
+                document.getElementById("container").style.display="none"
+                document.getElementById("container1").style.display="none"
+                document.getElementById("page5").style.display=""
+                  })    
+                  document.getElementById("projectsbtu").addEventListener("click",function(){
+                    document.getElementById("page1").style.display="none"
+                    document.getElementById("page2").style.display="none"
+                    document.getElementById("page3").style.display="none"
+                    document.getElementById("page4").style.display="none"
+                    document.getElementById("container").style.display=""
+                    document.getElementById("container1").style.display=""
+                    document.getElementById("page5").style.display="none"
+                      }) 
+                      document.getElementById("contactbtu").addEventListener("click",function(){
+                        document.getElementById("page1").style.display="flex"
+                          document.getElementById("page2").style.display="none"
+                          document.getElementById("page3").style.display="none"
+                          document.getElementById("page4").style.display="none"
+                          document.getElementById("container").style.display="none"
+                          document.getElementById("container1").style.display="none"
+                          document.getElementById("page5").style.display="none"
+                            })    
+//
+document.getElementById("iconclick").addEventListener("click",function(){
+    document.getElementById("pop").style.display="block"     
+})
