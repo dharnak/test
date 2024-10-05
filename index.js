@@ -5,7 +5,7 @@ document.getElementById("but1log").addEventListener("click",function(){
     
     //
     if (a==="Dharneesh" && b==="Dharneesh"){
-        window.location.href="/index2.html"
+        window.location.href="/test/index2.html"
        }else{
            alert("user name and password wrong")
        }
